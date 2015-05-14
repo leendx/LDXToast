@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB4CEF41B035E8200FF84C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4CEF31B035E8200FF84C3 /* main.m */; };
+		1DB4CEF71B035E8200FF84C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4CEF61B035E8200FF84C3 /* AppDelegate.m */; };
+		1DB4CEFA1B035E8200FF84C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4CEF91B035E8200FF84C3 /* ViewController.m */; };
+		1DB4CEFD1B035E8200FF84C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4CEFB1B035E8200FF84C3 /* Main.storyboard */; };
+		1DB4CEFF1B035E8200FF84C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4CEFE1B035E8200FF84C3 /* Images.xcassets */; };
+		1DB4CF021B035E8200FF84C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB4CF001B035E8200FF84C3 /* LaunchScreen.xib */; };
+		1DB4CF0E1B035E8200FF84C3 /* LDXToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4CF0D1B035E8200FF84C3 /* LDXToastTests.m */; };
+		1DB4CF1C1B035EAE00FF84C3 /* LDXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4CF1A1B035EAE00FF84C3 /* LDXToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB4CF081B035E8200FF84C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB4CEE61B035E8200FF84C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB4CEED1B035E8200FF84C3;
+			remoteInfo = LDXToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB4CEEE1B035E8200FF84C3 /* LDXToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDXToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB4CEF21B035E8200FF84C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB4CEF31B035E8200FF84C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB4CEF51B035E8200FF84C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DB4CEF61B035E8200FF84C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DB4CEF81B035E8200FF84C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DB4CEF91B035E8200FF84C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DB4CEFC1B035E8200FF84C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DB4CEFE1B035E8200FF84C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DB4CF011B035E8200FF84C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DB4CF071B035E8200FF84C3 /* LDXToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDXToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB4CF0C1B035E8200FF84C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB4CF0D1B035E8200FF84C3 /* LDXToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDXToastTests.m; sourceTree = "<group>"; };
+		1DB4CF1A1B035EAE00FF84C3 /* LDXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDXToast.m; sourceTree = "<group>"; };
+		1DB4CF1B1B035EAE00FF84C3 /* LDXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDXToast.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB4CEEB1B035E8200FF84C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB4CF041B035E8200FF84C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB4CEE51B035E8200FF84C3 = {
+			isa = PBXGroup;
+			children = (
+				1DB4CEF01B035E8200FF84C3 /* LDXToast */,
+				1DB4CF0A1B035E8200FF84C3 /* LDXToastTests */,
+				1DB4CEEF1B035E8200FF84C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB4CEEF1B035E8200FF84C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4CEEE1B035E8200FF84C3 /* LDXToast.app */,
+				1DB4CF071B035E8200FF84C3 /* LDXToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB4CEF01B035E8200FF84C3 /* LDXToast */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4CF1A1B035EAE00FF84C3 /* LDXToast.m */,
+				1DB4CF1B1B035EAE00FF84C3 /* LDXToast.h */,
+				1DB4CEF51B035E8200FF84C3 /* AppDelegate.h */,
+				1DB4CEF61B035E8200FF84C3 /* AppDelegate.m */,
+				1DB4CEF81B035E8200FF84C3 /* ViewController.h */,
+				1DB4CEF91B035E8200FF84C3 /* ViewController.m */,
+				1DB4CEFB1B035E8200FF84C3 /* Main.storyboard */,
+				1DB4CEFE1B035E8200FF84C3 /* Images.xcassets */,
+				1DB4CF001B035E8200FF84C3 /* LaunchScreen.xib */,
+				1DB4CEF11B035E8200FF84C3 /* Supporting Files */,
+			);
+			path = LDXToast;
+			sourceTree = "<group>";
+		};
+		1DB4CEF11B035E8200FF84C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4CEF21B035E8200FF84C3 /* Info.plist */,
+				1DB4CEF31B035E8200FF84C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB4CF0A1B035E8200FF84C3 /* LDXToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4CF0D1B035E8200FF84C3 /* LDXToastTests.m */,
+				1DB4CF0B1B035E8200FF84C3 /* Supporting Files */,
+			);
+			path = LDXToastTests;
+			sourceTree = "<group>";
+		};
+		1DB4CF0B1B035E8200FF84C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB4CF0C1B035E8200FF84C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB4CEED1B035E8200FF84C3 /* LDXToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB4CF111B035E8200FF84C3 /* Build configuration list for PBXNativeTarget "LDXToast" */;
+			buildPhases = (
+				1DB4CEEA1B035E8200FF84C3 /* Sources */,
+				1DB4CEEB1B035E8200FF84C3 /* Frameworks */,
+				1DB4CEEC1B035E8200FF84C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDXToast;
+			productName = LDXToast;
+			productReference = 1DB4CEEE1B035E8200FF84C3 /* LDXToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB4CF061B035E8200FF84C3 /* LDXToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB4CF141B035E8200FF84C3 /* Build configuration list for PBXNativeTarget "LDXToastTests" */;
+			buildPhases = (
+				1DB4CF031B035E8200FF84C3 /* Sources */,
+				1DB4CF041B035E8200FF84C3 /* Frameworks */,
+				1DB4CF051B035E8200FF84C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB4CF091B035E8200FF84C3 /* PBXTargetDependency */,
+			);
+			name = LDXToastTests;
+			productName = LDXToastTests;
+			productReference = 1DB4CF071B035E8200FF84C3 /* LDXToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB4CEE61B035E8200FF84C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = leen;
+				TargetAttributes = {
+					1DB4CEED1B035E8200FF84C3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1DB4CF061B035E8200FF84C3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1DB4CEED1B035E8200FF84C3;
+					};
+				};
+			};
+			buildConfigurationList = 1DB4CEE91B035E8200FF84C3 /* Build configuration list for PBXProject "LDXToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB4CEE51B035E8200FF84C3;
+			productRefGroup = 1DB4CEEF1B035E8200FF84C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB4CEED1B035E8200FF84C3 /* LDXToast */,
+				1DB4CF061B035E8200FF84C3 /* LDXToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB4CEEC1B035E8200FF84C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4CEFD1B035E8200FF84C3 /* Main.storyboard in Resources */,
+				1DB4CF021B035E8200FF84C3 /* LaunchScreen.xib in Resources */,
+				1DB4CEFF1B035E8200FF84C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB4CF051B035E8200FF84C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB4CEEA1B035E8200FF84C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4CF1C1B035EAE00FF84C3 /* LDXToast.m in Sources */,
+				1DB4CEFA1B035E8200FF84C3 /* ViewController.m in Sources */,
+				1DB4CEF71B035E8200FF84C3 /* AppDelegate.m in Sources */,
+				1DB4CEF41B035E8200FF84C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB4CF031B035E8200FF84C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4CF0E1B035E8200FF84C3 /* LDXToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB4CF091B035E8200FF84C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB4CEED1B035E8200FF84C3 /* LDXToast */;
+			targetProxy = 1DB4CF081B035E8200FF84C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DB4CEFB1B035E8200FF84C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB4CEFC1B035E8200FF84C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB4CF001B035E8200FF84C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB4CF011B035E8200FF84C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB4CF0F1B035E8200FF84C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB4CF101B035E8200FF84C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB4CF121B035E8200FF84C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDXToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DB4CF131B035E8200FF84C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDXToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DB4CF151B035E8200FF84C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDXToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDXToast.app/LDXToast";
+			};
+			name = Debug;
+		};
+		1DB4CF161B035E8200FF84C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDXToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDXToast.app/LDXToast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB4CEE91B035E8200FF84C3 /* Build configuration list for PBXProject "LDXToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB4CF0F1B035E8200FF84C3 /* Debug */,
+				1DB4CF101B035E8200FF84C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB4CF111B035E8200FF84C3 /* Build configuration list for PBXNativeTarget "LDXToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB4CF121B035E8200FF84C3 /* Debug */,
+				1DB4CF131B035E8200FF84C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DB4CF141B035E8200FF84C3 /* Build configuration list for PBXNativeTarget "LDXToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB4CF151B035E8200FF84C3 /* Debug */,
+				1DB4CF161B035E8200FF84C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB4CEE61B035E8200FF84C3 /* Project object */;
+}
