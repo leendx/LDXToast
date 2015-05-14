@@ -1,6 +1,5 @@
 //
-//  LeenToast.m
-//  CarRepair
+//  LDXToast.m
 //
 //  Created by lin bin on 12-2-15.
 //  Copyright 2012 __LeenDX__. All rights reserved.
@@ -138,7 +137,6 @@ static LDXToast *toast;
         CGRect textSize = [_text boundingRectWithSize:constraintSize options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil];
         
         CGSize labelSize = textSize.size;
-//        view.frame=	CGRectMake(window.center.x-labelSize.width/2-10, window.center.y-labelSize.height/2+140-gravity, labelSize.width+20, labelSize.height+20);
         
         view.frame=	CGRectMake(0, 0, labelSize.width+20, labelSize.height+20);
         view.center = CGPointMake(CGRectGetMidX(window.frame), CGRectGetMidY(window.frame)/2.f * gravity);

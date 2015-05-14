@@ -1,5 +1,5 @@
 //
-//  LeenToast.h
+//  LDXToast.h
 //
 //  Created by lin bin on 12-2-15.
 //  Copyright 2012 __LeenDX__. All rights reserved.
